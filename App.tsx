@@ -20,8 +20,9 @@ const App = () => {
           <Stack.Screen name="postDetail" component={PostDetail} />
         </Stack.Navigator>
       </NavigationContainer>
+      
     </Provider>
   );
 };
-
+  
 export default App;
